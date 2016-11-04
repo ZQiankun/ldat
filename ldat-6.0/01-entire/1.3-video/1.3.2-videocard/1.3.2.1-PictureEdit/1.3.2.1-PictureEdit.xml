@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <common>
+        <count type="int" tagname="循环次数">0</count>
+        <exectime type="time" tagname="循环时间">1M</exectime><!--Y:year; m:month; d:day; H:hour; M:minute-->
+    </common>
+    <data>
+        <picture_source_name type="string" tagname="图片名">jepg.jpg</picture_source_name>
+        <picture_source_name1 type="string" tagname="图片名">PNG.png</picture_source_name1>
+        <picture_source_name2 type="string" tagname="图片名">bmp.bmp</picture_source_name2>
+        <picture_source_name3 type="string" tagname="图片名">GIF.gif</picture_source_name3>
+        <picture_source_name4 type="string" tagname="图片名">1M.jpg</picture_source_name4>
+    </data>
+</config>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <common>
+        <count type="int" tagname="循环次数">0</count>
+        <exectime type="time" tagname="循环时间">1M</exectime><!--Y:year; m:month; d:day; H:hour; M:minute-->
+    </common>
+    <data>
+        <app_source_name1     type="string" tagname="应用程序名">wps</app_source_name1>
+        <app_source_name2     type="string" tagname="应用程序名">dia</app_source_name2>
+        <app_source_name3     type="string" tagname="应用程序名">evince</app_source_name3>
+        <app_source_name4     type="string" tagname="应用程序名">firefox</app_source_name4>
+        <app_source_name5     type="string" tagname="应用程序名">iptux</app_source_name5>
+        <app_source_name6     type="string" tagname="应用程序名">thunderbird</app_source_name6>
+        <app_source_name7     type="string" tagname="应用程序名">filezilla</app_source_name7>
+        <app_source_name8     type="string" tagname="应用程序名">cheese</app_source_name8>
+        <app_source_name9     type="string" tagname="应用程序名">gimp</app_source_name9>
+        <app_source_name10     type="string" tagname="应用程序名">xsane</app_source_name10>
+        <app_source_name11    type="string" tagname="应用程序名">brasero</app_source_name11>
+        <app_source_name12    type="string" tagname="应用程序名">eog</app_source_name12>
+        <app_source_name13    type="string" tagname="应用程序名">audio-recorder</app_source_name13>
+        <app_source_name14    type="string" tagname="应用程序名">smplayer</app_source_name14>
+        <app_source_name15    type="string" tagname="应用程序名">rhythmbox</app_source_name15>
+        <app_source_name16    type="string" tagname="应用程序名">nfs-securitycenter</app_source_name16>
+        <app_source_name17     type="string" tagname="应用程序名">nfs-antivirus</app_source_name17>
+        <app_source_name18    type="string" tagname="应用程序名">nfs-firewall</app_source_name18>
+        <app_source_name19     type="string" tagname="应用程序名">mintupdate</app_source_name19>
+        <app_source_name20    type="string" tagname="应用程序名">aptdaemon</app_source_name20>
+        <app_source_name21    type="string" tagname="应用程序名">gedit</app_source_name21>
+        <app_source_name22     type="string" tagname="应用程序名">gparted</app_source_name22>
+        <app_source_name23     type="string" tagname="应用程序名">nfs-screenshot</app_source_name23>
+        <app_source_name24     type="string" tagname="应用程序名">nfs-file-compress</app_source_name24>
+        <app_source_name25     type="string" tagname="应用程序名">nfs-phone-manager</app_source_name25>
+        <app_source_name26     type="string" tagname="应用程序名">lpmt</app_source_name26>
+        <app_source_name27     type="string" tagname="应用程序名">system-config-printer-gnome</app_source_name27>
+    </data>
+</config>

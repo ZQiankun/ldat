@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <common>
+        <count type="int" tagname="循环次数">1</count>
+    </common>
+    <data>
+        <app_source_name27     type="string" tagname="应用程序名">none</app_source_name27>
+    </data>
+</config>

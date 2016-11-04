@@ -1,0 +1,429 @@
+####################################
+#         System information       #
+####################################
+# Date:                   2015:07:02 
+# Time:                   16:32:12 
+# Xnee program:           cnee 
+# Xnee version:           3.19 
+# Xnee home:              http://www.gnu.org/software/xnee/ 
+# Xnee info mailing list: info-xnee@gnu.org 
+# Xnee bug mailing list:  bug-xnee@gnu.org 
+# X version:              11 
+# X revision:             0 
+# X vendor:               The X.Org Foundation 
+# X vendor release:       11303000 
+# Record version major:   1
+# Record version minor:   13
+# OS name:                Linux 
+# OS Release:             3.8.13.13-cdos 
+# OS Version:             #1 SMP Fri Mar 7 16:44:03 CST 2014 
+# Machine:                i686 
+# Nodename:               isoft 
+# Display name:           :0
+# Dimension:              1920x1080
+
+
+
+##############################################
+#      Xnee application arguments            #
+##############################################
+#  ./cnee -rec --keyboard -o 0611_isoft.xns 
+
+
+##############################################
+#      Displays                              #
+##############################################
+# display :0
+# distribute
+
+
+##############################################
+#      Files                                 #
+##############################################
+# out-file 0611_isoft.xns
+# err-file stderr
+
+
+##############################################
+#      Key Grabs                             #
+##############################################
+# stop-key         0
+# pause-key        0
+# resume-key       0
+# insert-key       0
+# exec-key         0
+# exec-program-key         xnee-exec-no-program
+
+
+##############################################
+#      Recording limits etc                  #
+##############################################
+
+events-to-record        -1
+data-to-record          -1
+seconds-to-record       -1
+# first-last
+
+# Record  all (including current) clients or only future ones
+all-clients
+# future-clients
+
+# Store the starting mouse position 
+# store-mouse-position
+
+
+##############################################
+#      Resolution                            #
+##############################################
+
+# Resolution
+#recorded-resolution  1920x1080
+#replay-resolution  1x1
+#resolution-adjustment  0
+
+
+##############################################
+#      Speed                                 #
+##############################################
+
+# Speed
+#speed-percent  100
+
+
+##############################################
+#      Replaying limits etc                  #
+##############################################
+
+max-threshold 20 
+min-threshold 20 
+tot-threshold 40 
+
+
+##############################################
+#      Feedback                              #
+##############################################
+#feedback-none
+#feedback-stderr
+feedback-xosd
+ 
+
+
+##############################################
+#      Various                               #
+##############################################
+
+# Plugin file 
+
+# Modes (currently not used)
+# synchronised-replay
+
+# Replay offset
+#replay-offset 0x0
+
+# Human printout of X11 data (instead of Xnee format)
+# human-printout  
+
+# Delay before starting record/replay
+# time 0
+
+# No recording of ReparentNotify
+# no-reparent-recording 
+
+# Various
+#########################################
+#          Record settings              #
+#########################################
+#   data_flags          7
+#   rState              0x846aa40
+#   xids[0]             3
+#   xids[1]             0
+# Number of Ranges      2
+# RecordRange[0]
+request-range            0-0
+reply-range                   0-0 
+extension-request-major-range  0-0 
+extension-request-minor-range  0-0 
+extension-reply-major-range   0-0
+extension-reply-minor-range   0-0 
+delivered-event-range         21-21 
+device-event-range            2-3 
+error-range                   0-0 
+# RecordRange[1]
+request-range            0-0
+reply-range                   0-0 
+extension-request-major-range  0-0 
+extension-request-minor-range  0-0 
+extension-reply-major-range   0-0
+extension-reply-minor-range   0-0 
+delivered-event-range         0-0 
+device-event-range            67-68 
+error-range                   0-0 
+0,21,0,0,0,0,0,13506205
+NEW-WINDOW:3,24:37751399,37751399,25167595,0,0,0:10x32+800+550:0,0:
+0,21,0,0,0,0,0,13506205
+0,21,0,0,0,0,0,13506205
+0,21,0,0,0,0,0,13506205
+0,21,0,0,0,0,0,13506205
+0,21,0,0,0,0,0,13513901
+NEW-WINDOW:3,24:60817537,60817537,25167794,0,0,0:10x32+650+500:0,0:
+0,21,0,0,0,0,0,13513901
+0,21,0,0,0,0,0,13513901
+0,21,0,0,0,0,0,13513901
+0,21,0,0,0,0,0,13513901
+7,2,0,0,0,38,0,13516329,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,38,0,13516329,3,Virtual core keyboard
+7,3,0,0,0,38,0,13516481,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,38,0,13516481,3,Virtual core keyboard
+7,2,0,0,0,56,0,13516681,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,56,0,13516681,3,Virtual core keyboard
+7,3,0,0,0,56,0,13516785,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,56,0,13516785,3,Virtual core keyboard
+7,2,0,0,0,54,0,13516977,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,54,0,13516977,3,Virtual core keyboard
+7,3,0,0,0,54,0,13517137,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,54,0,13517137,3,Virtual core keyboard
+7,2,0,0,0,40,0,13517241,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,40,0,13517241,3,Virtual core keyboard
+7,3,0,0,0,40,0,13517393,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,40,0,13517393,3,Virtual core keyboard
+7,2,0,0,0,26,0,13517521,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,26,0,13517521,3,Virtual core keyboard
+7,3,0,0,0,26,0,13517681,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,26,0,13517681,3,Virtual core keyboard
+7,2,0,0,0,41,0,13517825,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,41,0,13517825,3,Virtual core keyboard
+7,3,0,0,0,41,0,13517969,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,41,0,13517969,3,Virtual core keyboard
+7,2,0,0,0,42,0,13518161,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,42,0,13518161,3,Virtual core keyboard
+7,3,0,0,0,42,0,13518273,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,42,0,13518273,3,Virtual core keyboard
+7,2,0,0,0,43,0,13518473,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,43,0,13518473,3,Virtual core keyboard
+7,3,0,0,0,43,0,13518577,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,43,0,13518577,3,Virtual core keyboard
+7,2,0,0,0,31,0,13518785,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,31,0,13518785,3,Virtual core keyboard
+7,3,0,0,0,31,0,13518889,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,31,0,13518889,3,Virtual core keyboard
+7,2,0,0,0,44,0,13519089,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,44,0,13519089,3,Virtual core keyboard
+7,3,0,0,0,44,0,13519209,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,44,0,13519209,3,Virtual core keyboard
+7,2,0,0,0,45,0,13519361,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,45,0,13519361,3,Virtual core keyboard
+7,3,0,0,0,45,0,13519465,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,45,0,13519465,3,Virtual core keyboard
+7,2,0,0,0,46,0,13519649,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,46,0,13519649,3,Virtual core keyboard
+7,3,0,0,0,46,0,13519753,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,46,0,13519753,3,Virtual core keyboard
+7,2,0,0,0,58,0,13520089,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,58,0,13520089,3,Virtual core keyboard
+7,3,0,0,0,58,0,13520225,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,58,0,13520225,3,Virtual core keyboard
+7,2,0,0,0,57,0,13520369,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,57,0,13520369,3,Virtual core keyboard
+7,3,0,0,0,57,0,13520473,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,57,0,13520473,3,Virtual core keyboard
+7,2,0,0,0,32,0,13521001,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,32,0,13521001,3,Virtual core keyboard
+7,3,0,0,0,32,0,13521121,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,32,0,13521121,3,Virtual core keyboard
+7,2,0,0,0,33,0,13521305,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,33,0,13521305,3,Virtual core keyboard
+7,3,0,0,0,33,0,13521401,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,33,0,13521401,3,Virtual core keyboard
+7,2,0,0,0,24,0,13522368,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,24,0,13522368,3,Virtual core keyboard
+7,3,0,0,0,24,0,13522553,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,24,0,13522553,3,Virtual core keyboard
+7,2,0,0,0,27,0,13522753,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,27,0,13522753,3,Virtual core keyboard
+7,3,0,0,0,27,0,13522897,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,27,0,13522897,3,Virtual core keyboard
+7,2,0,0,0,39,0,13523425,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,39,0,13523425,3,Virtual core keyboard
+7,3,0,0,0,39,0,13523601,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,39,0,13523601,3,Virtual core keyboard
+7,2,0,0,0,28,0,13523833,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,28,0,13523833,3,Virtual core keyboard
+7,3,0,0,0,28,0,13523961,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,28,0,13523961,3,Virtual core keyboard
+7,2,0,0,0,30,0,13525729,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,30,0,13525729,3,Virtual core keyboard
+7,3,0,0,0,30,0,13525825,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,30,0,13525825,3,Virtual core keyboard
+7,2,0,0,0,55,0,13526057,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,55,0,13526057,3,Virtual core keyboard
+7,3,0,0,0,55,0,13526177,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,55,0,13526177,3,Virtual core keyboard
+7,2,0,0,0,25,0,13527873,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,25,0,13527873,3,Virtual core keyboard
+7,3,0,0,0,25,0,13528017,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,25,0,13528017,3,Virtual core keyboard
+7,2,0,0,0,53,0,13529841,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,53,0,13529841,3,Virtual core keyboard
+7,3,0,0,0,53,0,13529977,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,53,0,13529977,3,Virtual core keyboard
+7,2,0,0,0,29,0,13530465,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,29,0,13530465,3,Virtual core keyboard
+7,3,0,0,0,29,0,13530593,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,29,0,13530593,3,Virtual core keyboard
+7,2,0,0,0,52,0,13531641,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,52,0,13531641,3,Virtual core keyboard
+7,3,0,0,0,52,0,13531777,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,52,0,13531777,3,Virtual core keyboard
+7,2,0,0,0,37,0,13533041,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,37,0,13533041,3,Virtual core keyboard
+7,2,0,0,0,65,0,13533041,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,65,0,13533041,3,Virtual core keyboard
+7,3,0,0,0,37,0,13533233,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,37,0,13533233,3,Virtual core keyboard
+7,3,0,0,0,65,0,13533233,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,65,0,13533233,3,Virtual core keyboard
+7,2,0,0,0,52,0,13533961,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,52,0,13533961,3,Virtual core keyboard
+7,3,0,0,0,52,0,13534081,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,52,0,13534081,3,Virtual core keyboard
+7,2,0,0,0,38,0,13534185,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,38,0,13534185,3,Virtual core keyboard
+7,3,0,0,0,38,0,13534337,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,38,0,13534337,3,Virtual core keyboard
+7,2,0,0,0,31,0,13535145,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,31,0,13535145,3,Virtual core keyboard
+7,3,0,0,0,31,0,13535225,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,31,0,13535225,3,Virtual core keyboard
+7,2,0,0,0,65,0,13536593,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,65,0,13536593,3,Virtual core keyboard
+7,3,0,0,0,65,0,13536713,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,65,0,13536713,3,Virtual core keyboard
+7,2,0,0,0,37,0,13538137,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,37,0,13538137,3,Virtual core keyboard
+7,2,0,0,0,65,0,13538157,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,65,0,13538157,3,Virtual core keyboard
+7,3,0,0,0,65,0,13538329,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,65,0,13538329,3,Virtual core keyboard
+7,3,0,0,0,37,0,13538353,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,37,0,13538353,3,Virtual core keyboard
+7,2,0,0,0,10,0,13540073,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,10,0,13540073,3,Virtual core keyboard
+7,3,0,0,0,10,0,13540209,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,10,0,13540209,3,Virtual core keyboard
+7,2,0,0,0,11,0,13540345,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,11,0,13540345,3,Virtual core keyboard
+7,3,0,0,0,11,0,13540481,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,11,0,13540481,3,Virtual core keyboard
+7,2,0,0,0,12,0,13540625,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,12,0,13540625,3,Virtual core keyboard
+7,3,0,0,0,12,0,13540769,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,12,0,13540769,3,Virtual core keyboard
+7,2,0,0,0,13,0,13540921,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,13,0,13540921,3,Virtual core keyboard
+7,3,0,0,0,13,0,13541081,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,13,0,13541081,3,Virtual core keyboard
+7,2,0,0,0,14,0,13541617,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,14,0,13541617,3,Virtual core keyboard
+7,3,0,0,0,14,0,13541785,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,14,0,13541785,3,Virtual core keyboard
+7,2,0,0,0,15,0,13541960,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,15,0,13541960,3,Virtual core keyboard
+7,3,0,0,0,15,0,13542105,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,15,0,13542105,3,Virtual core keyboard
+7,2,0,0,0,16,0,13542281,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,16,0,13542281,3,Virtual core keyboard
+7,3,0,0,0,16,0,13542417,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,16,0,13542417,3,Virtual core keyboard
+7,2,0,0,0,17,0,13542585,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,17,0,13542585,3,Virtual core keyboard
+7,3,0,0,0,17,0,13542721,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,17,0,13542721,3,Virtual core keyboard
+7,2,0,0,0,18,0,13542873,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,18,0,13542873,3,Virtual core keyboard
+7,3,0,0,0,18,0,13543009,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,18,0,13543009,3,Virtual core keyboard
+7,2,0,0,0,19,0,13543145,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,19,0,13543145,3,Virtual core keyboard
+7,3,0,0,0,19,0,13543249,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,19,0,13543249,3,Virtual core keyboard
+7,2,0,0,0,50,0,13544065,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,50,0,13544065,3,Virtual core keyboard
+7,2,0,0,0,10,0,13544585,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,10,0,13544585,3,Virtual core keyboard
+7,3,0,0,0,10,0,13544681,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,10,0,13544681,3,Virtual core keyboard
+7,2,0,0,0,11,0,13544873,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,11,0,13544873,3,Virtual core keyboard
+7,3,0,0,0,11,0,13544961,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,11,0,13544961,3,Virtual core keyboard
+7,2,0,0,0,12,0,13545193,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,12,0,13545193,3,Virtual core keyboard
+7,3,0,0,0,12,0,13545281,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,12,0,13545281,3,Virtual core keyboard
+7,2,0,0,0,13,0,13545488,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,13,0,13545489,3,Virtual core keyboard
+7,3,0,0,0,13,0,13545577,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,13,0,13545577,3,Virtual core keyboard
+7,2,0,0,0,14,0,13545793,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,14,0,13545793,3,Virtual core keyboard
+7,3,0,0,0,14,0,13545881,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,14,0,13545881,3,Virtual core keyboard
+7,2,0,0,0,15,0,13546081,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,15,0,13546081,3,Virtual core keyboard
+7,3,0,0,0,15,0,13546176,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,15,0,13546176,3,Virtual core keyboard
+7,2,0,0,0,16,0,13546409,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,16,0,13546409,3,Virtual core keyboard
+7,3,0,0,0,16,0,13546497,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,16,0,13546497,3,Virtual core keyboard
+7,2,0,0,0,17,0,13546697,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,17,0,13546697,3,Virtual core keyboard
+7,3,0,0,0,17,0,13546785,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,17,0,13546785,3,Virtual core keyboard
+7,2,0,0,0,18,0,13547025,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,18,0,13547025,3,Virtual core keyboard
+7,3,0,0,0,18,0,13547113,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,18,0,13547113,3,Virtual core keyboard
+7,2,0,0,0,19,0,13547345,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,19,0,13547345,3,Virtual core keyboard
+7,3,0,0,0,19,0,13547425,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,19,0,13547425,3,Virtual core keyboard
+7,3,0,0,0,50,0,13547569,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,50,0,13547569,3,Virtual core keyboard
+7,2,0,0,0,37,0,13548761,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,37,0,13548761,3,Virtual core keyboard
+7,2,0,0,0,38,0,13549785,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,38,0,13549785,3,Virtual core keyboard
+7,3,0,0,0,37,0,13550001,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,37,0,13550001,3,Virtual core keyboard
+7,3,0,0,0,38,0,13550001,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,38,0,13550001,3,Virtual core keyboard
+7,2,0,0,0,37,0,13552617,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,37,0,13552617,3,Virtual core keyboard
+7,2,0,0,0,54,0,13554193,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,54,0,13554193,3,Virtual core keyboard
+7,3,0,0,0,37,0,13554457,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,37,0,13554457,3,Virtual core keyboard
+7,3,0,0,0,54,0,13554457,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,54,0,13554457,3,Virtual core keyboard
+7,2,0,0,0,115,0,13556889,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,115,0,13556889,3,Virtual core keyboard
+7,3,0,0,0,115,0,13557001,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,115,0,13557001,3,Virtual core keyboard
+7,2,0,0,0,37,0,13557897,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,37,0,13557897,3,Virtual core keyboard
+7,2,0,0,0,55,0,13558633,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,55,0,13558633,3,Virtual core keyboard
+7,3,0,0,0,55,0,13558801,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,55,0,13558801,3,Virtual core keyboard
+7,3,0,0,0,37,0,13558833,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,37,0,13558833,3,Virtual core keyboard
+7,2,0,0,0,37,0,13559665,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,37,0,13559665,3,Virtual core keyboard
+7,2,0,0,0,39,0,13560257,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,2,0,0,0,39,0,13560257,3,Virtual core keyboard
+7,3,0,0,0,39,0,13560441,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,39,0,13560441,3,Virtual core keyboard
+7,3,0,0,0,37,0,13560473,9,NOVATEK USB NETVISTA FULL WIDTH KEYBOARD
+6,3,0,0,0,37,0,13560473,3,Virtual core keyboard
+

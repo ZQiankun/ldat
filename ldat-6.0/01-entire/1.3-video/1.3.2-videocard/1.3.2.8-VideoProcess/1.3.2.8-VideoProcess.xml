@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+视频文件的目录为：ldat_resource/Videos/1080P-videos
+video_file，在video_file中填入视频文件的名字
+-->
+<config>
+    <casename type="string">视频播放测试</casename>
+    <common>
+    </common>
+    <data>
+        <video_file type="string" tagname="视频文件">~/ldat_resource/Videos/1080P-videos/testVideo.mp4</video_file>
+        <output_file type="string" tagname="输出文件">video_process.out</output_file>
+    </data>
+</config>

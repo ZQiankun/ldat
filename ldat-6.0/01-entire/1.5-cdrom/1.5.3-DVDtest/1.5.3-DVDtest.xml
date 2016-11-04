@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<config>
+    <common>
+        <count type="int" tagname="循环次数">0</count>
+        <exectime type="time" tagname="循环时间">2H</exectime>
+        <!--Y:year; m:month; d:day; H:hour; M:minute-->
+    </common>
+    <data>
+    </data>
+</config>

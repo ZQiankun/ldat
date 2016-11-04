@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <common>
+        <count type="int" tagname="循环次数">0</count>
+        <exectime type="time" tagname="循环时间">1M</exectime><!--Y:year; m:month; d:day; H:hour; M:minute-->
+    </common>
+    <data>
+        <web_site type="string" tagname="视频网址">http://v.youku.com/v_show/id_XNzQyMzAzNTUy_ev_5.html?from=y1.3-idx-uhome-1519-20887.205805-205902.8-1</web_site>
+	<show_time type="int" tagname="播放时间(单位：秒)">120</show_time>
+    </data>
+</config>

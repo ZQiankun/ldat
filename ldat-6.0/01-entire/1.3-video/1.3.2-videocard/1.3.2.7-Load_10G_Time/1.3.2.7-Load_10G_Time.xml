@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	case 配置说明: common 子项可以不做修改 data 子项中的fName: 要打在测试文件的名称 count:打开测试次数	
+	case 结果说明: 结果保存在reult/result.log 文件中。
+-->
+<config tagname = "配置">
+	<common>
+		<os0 type = "string" tagname = "操作系统名称">cos</os0>
+		<os1 type = "string" tagname = "操作系统名称">isoft</os1>
+		<os2 type = "string" tagname = "操作系统名称">kylin</os2>
+	</common>
+	<data tagname = "配置数据">
+		<fName type = "string" tagname = "欲打开文件">~/ldat_resource/Videos/diff-size-videos/10.3G/Chopin  La Dame aux camelias.mkv</fName>
+		<count type = "int" tagname = "打开视频的测试次数">8</count>
+	</data>
+</config>

@@ -1,0 +1,417 @@
+####################################
+#         System information       #
+####################################
+# Date:                   2015:06:11 
+# Time:                   14:44:29 
+# Xnee program:           cnee 
+# Xnee version:           3.19 
+# Xnee home:              http://www.gnu.org/software/xnee/ 
+# Xnee info mailing list: info-xnee@gnu.org 
+# Xnee bug mailing list:  bug-xnee@gnu.org 
+# X version:              11 
+# X revision:             0 
+# X vendor:               Fedora Project 
+# X vendor release:       11404000 
+# Record version major:   1
+# Record version minor:   13
+# OS name:                Linux 
+# OS Release:             3.10.52-200.nk.6.zx.1.x86_64 
+# OS Version:             #1 SMP Mon Apr 13 12:50:31 CST 2015 
+# Machine:                x86_64 
+# Nodename:               localhost.localdomain 
+# Display name:           :0.0
+# Dimension:              1920x1080
+
+
+
+##############################################
+#      Xnee application arguments            #
+##############################################
+#  ./cnee-64 -rec --keyboard -o xnee_kylin_64.xns 
+
+
+##############################################
+#      Displays                              #
+##############################################
+# display :0.0
+# distribute
+
+
+##############################################
+#      Files                                 #
+##############################################
+# out-file xnee_kylin_64.xns
+# err-file stderr
+
+
+##############################################
+#      Key Grabs                             #
+##############################################
+# stop-key         0
+# pause-key        0
+# resume-key       0
+# insert-key       0
+# exec-key         0
+# exec-program-key         xnee-exec-no-program
+
+
+##############################################
+#      Recording limits etc                  #
+##############################################
+
+events-to-record        -1
+data-to-record          -1
+seconds-to-record       -1
+# first-last
+
+# Record  all (including current) clients or only future ones
+all-clients
+# future-clients
+
+# Store the starting mouse position 
+# store-mouse-position
+
+
+##############################################
+#      Resolution                            #
+##############################################
+
+# Resolution
+#recorded-resolution  1920x1080
+#replay-resolution  1x1
+#resolution-adjustment  0
+
+
+##############################################
+#      Speed                                 #
+##############################################
+
+# Speed
+#speed-percent  100
+
+
+##############################################
+#      Replaying limits etc                  #
+##############################################
+
+max-threshold 20 
+min-threshold 20 
+tot-threshold 40 
+
+
+##############################################
+#      Feedback                              #
+##############################################
+#feedback-none
+#feedback-stderr
+feedback-xosd
+ 
+
+
+##############################################
+#      Various                               #
+##############################################
+
+# Plugin file 
+
+# Modes (currently not used)
+# synchronised-replay
+
+# Replay offset
+#replay-offset 0x0
+
+# Human printout of X11 data (instead of Xnee format)
+# human-printout  
+
+# Delay before starting record/replay
+# time 0
+
+# No recording of ReparentNotify
+# no-reparent-recording 
+
+# Various
+#########################################
+#          Record settings              #
+#########################################
+#   data_flags          7
+#   rState              0x1efe020
+#   xids[0]             3
+#   xids[1]             0
+# Number of Ranges      2
+# RecordRange[0]
+request-range            0-0
+reply-range                   0-0 
+extension-request-major-range  0-0 
+extension-request-minor-range  0-0 
+extension-reply-major-range   0-0
+extension-reply-minor-range   0-0 
+delivered-event-range         21-21 
+device-event-range            2-3 
+error-range                   6-6 
+# RecordRange[1]
+request-range            0-0
+reply-range                   0-0 
+extension-request-major-range  0-0 
+extension-request-minor-range  0-0 
+extension-reply-major-range   0-0
+extension-reply-minor-range   0-0 
+delivered-event-range         0-0 
+device-event-range            67-68 
+error-range                   0-0 
+7,2,0,0,0,38,0,101414549,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,38,0,101414549,3,Virtual core keyboard
+7,3,0,0,0,38,0,101414695,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,38,0,101414695,3,Virtual core keyboard
+7,2,0,0,0,56,0,101414933,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,56,0,101414933,3,Virtual core keyboard
+7,3,0,0,0,56,0,101415029,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,56,0,101415029,3,Virtual core keyboard
+7,2,0,0,0,54,0,101415317,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,54,0,101415317,3,Virtual core keyboard
+7,3,0,0,0,54,0,101415461,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,54,0,101415461,3,Virtual core keyboard
+7,2,0,0,0,40,0,101415685,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,40,0,101415685,3,Virtual core keyboard
+7,3,0,0,0,40,0,101415813,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,40,0,101415813,3,Virtual core keyboard
+7,2,0,0,0,26,0,101416277,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,26,0,101416277,3,Virtual core keyboard
+7,3,0,0,0,26,0,101416421,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,26,0,101416421,3,Virtual core keyboard
+7,2,0,0,0,41,0,101416677,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,41,0,101416677,3,Virtual core keyboard
+7,3,0,0,0,41,0,101416821,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,41,0,101416821,3,Virtual core keyboard
+7,2,0,0,0,42,0,101417189,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,42,0,101417189,3,Virtual core keyboard
+7,3,0,0,0,42,0,101417301,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,42,0,101417301,3,Virtual core keyboard
+7,2,0,0,0,43,0,101417557,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,43,0,101417557,3,Virtual core keyboard
+7,3,0,0,0,43,0,101417669,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,43,0,101417669,3,Virtual core keyboard
+7,2,0,0,0,31,0,101418117,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,31,0,101418117,3,Virtual core keyboard
+7,3,0,0,0,31,0,101418245,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,31,0,101418245,3,Virtual core keyboard
+7,2,0,0,0,44,0,101418469,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,44,0,101418469,3,Virtual core keyboard
+7,3,0,0,0,44,0,101418613,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,44,0,101418613,3,Virtual core keyboard
+7,2,0,0,0,45,0,101418837,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,45,0,101418837,3,Virtual core keyboard
+7,3,0,0,0,45,0,101418965,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,45,0,101418965,3,Virtual core keyboard
+7,2,0,0,0,46,0,101419189,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,46,0,101419189,3,Virtual core keyboard
+7,3,0,0,0,46,0,101419285,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,46,0,101419285,3,Virtual core keyboard
+7,2,0,0,0,58,0,101419893,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,58,0,101419893,3,Virtual core keyboard
+7,3,0,0,0,58,0,101420005,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,58,0,101420005,3,Virtual core keyboard
+7,2,0,0,0,57,0,101420197,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,57,0,101420197,3,Virtual core keyboard
+7,3,0,0,0,57,0,101420325,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,57,0,101420325,3,Virtual core keyboard
+7,2,0,0,0,32,0,101421093,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,32,0,101421093,3,Virtual core keyboard
+7,3,0,0,0,32,0,101421173,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,32,0,101421173,3,Virtual core keyboard
+7,2,0,0,0,33,0,101421445,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,33,0,101421445,3,Virtual core keyboard
+7,3,0,0,0,33,0,101421541,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,33,0,101421541,3,Virtual core keyboard
+7,2,0,0,0,24,0,101421925,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,24,0,101421925,3,Virtual core keyboard
+7,3,0,0,0,24,0,101422085,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,24,0,101422085,3,Virtual core keyboard
+7,2,0,0,0,27,0,101422469,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,27,0,101422469,3,Virtual core keyboard
+7,3,0,0,0,27,0,101422629,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,27,0,101422629,3,Virtual core keyboard
+7,2,0,0,0,39,0,101422821,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,39,0,101422821,3,Virtual core keyboard
+7,3,0,0,0,39,0,101422981,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,39,0,101422981,3,Virtual core keyboard
+7,2,0,0,0,28,0,101423285,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,28,0,101423285,3,Virtual core keyboard
+7,3,0,0,0,28,0,101423397,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,28,0,101423397,3,Virtual core keyboard
+7,2,0,0,0,30,0,101425301,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,30,0,101425301,3,Virtual core keyboard
+7,3,0,0,0,30,0,101425413,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,30,0,101425413,3,Virtual core keyboard
+7,2,0,0,0,55,0,101425733,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,55,0,101425733,3,Virtual core keyboard
+7,3,0,0,0,55,0,101425861,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,55,0,101425861,3,Virtual core keyboard
+7,2,0,0,0,25,0,101426261,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,25,0,101426261,3,Virtual core keyboard
+7,3,0,0,0,25,0,101426421,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,25,0,101426421,3,Virtual core keyboard
+7,2,0,0,0,53,0,101427525,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,53,0,101427525,3,Virtual core keyboard
+7,3,0,0,0,53,0,101427685,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,53,0,101427685,3,Virtual core keyboard
+7,2,0,0,0,29,0,101428085,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,29,0,101428085,3,Virtual core keyboard
+7,3,0,0,0,29,0,101428213,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,29,0,101428213,3,Virtual core keyboard
+7,2,0,0,0,52,0,101428533,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,52,0,101428533,3,Virtual core keyboard
+7,3,0,0,0,52,0,101428677,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,52,0,101428677,3,Virtual core keyboard
+7,2,0,0,0,50,0,101429893,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,50,0,101429893,3,Virtual core keyboard
+7,2,0,0,0,10,0,101430485,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,10,0,101430485,3,Virtual core keyboard
+7,3,0,0,0,10,0,101430597,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,10,0,101430597,3,Virtual core keyboard
+7,2,0,0,0,11,0,101430837,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,11,0,101430837,3,Virtual core keyboard
+7,3,0,0,0,11,0,101430949,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,11,0,101430949,3,Virtual core keyboard
+7,2,0,0,0,12,0,101431237,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,12,0,101431237,3,Virtual core keyboard
+7,3,0,0,0,12,0,101431349,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,12,0,101431349,3,Virtual core keyboard
+7,2,0,0,0,13,0,101431605,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,13,0,101431605,3,Virtual core keyboard
+7,3,0,0,0,13,0,101431701,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,13,0,101431701,3,Virtual core keyboard
+7,2,0,0,0,14,0,101431989,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,14,0,101431989,3,Virtual core keyboard
+7,3,0,0,0,14,0,101432085,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,14,0,101432085,3,Virtual core keyboard
+7,2,0,0,0,15,0,101432341,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,15,0,101432341,3,Virtual core keyboard
+7,3,0,0,0,15,0,101432452,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,15,0,101432452,3,Virtual core keyboard
+7,2,0,0,0,16,0,101432741,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,16,0,101432741,3,Virtual core keyboard
+7,3,0,0,0,16,0,101432837,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,16,0,101432837,3,Virtual core keyboard
+7,2,0,0,0,17,0,101433141,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,17,0,101433141,3,Virtual core keyboard
+7,3,0,0,0,17,0,101433253,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,17,0,101433253,3,Virtual core keyboard
+7,2,0,0,0,18,0,101433509,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,18,0,101433509,3,Virtual core keyboard
+7,3,0,0,0,18,0,101433605,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,18,0,101433605,3,Virtual core keyboard
+7,2,0,0,0,19,0,101433877,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,19,0,101433877,3,Virtual core keyboard
+7,3,0,0,0,19,0,101433989,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,19,0,101433989,3,Virtual core keyboard
+7,3,0,0,0,50,0,101434101,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,50,0,101434101,3,Virtual core keyboard
+7,2,0,0,0,37,0,101436117,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,37,0,101436117,3,Virtual core keyboard
+7,2,0,0,0,65,0,101436117,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,65,0,101436117,3,Virtual core keyboard
+7,3,0,0,0,37,0,101436309,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,37,0,101436309,3,Virtual core keyboard
+7,3,0,0,0,65,0,101436309,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,65,0,101436309,3,Virtual core keyboard
+7,2,0,0,0,52,0,101437333,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,52,0,101437333,3,Virtual core keyboard
+7,3,0,0,0,52,0,101437461,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,52,0,101437461,3,Virtual core keyboard
+7,2,0,0,0,38,0,101438005,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,38,0,101438005,3,Virtual core keyboard
+7,3,0,0,0,38,0,101438181,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,38,0,101438181,3,Virtual core keyboard
+7,2,0,0,0,31,0,101438469,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,31,0,101438469,3,Virtual core keyboard
+7,3,0,0,0,31,0,101438581,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,31,0,101438581,3,Virtual core keyboard
+7,2,0,0,0,65,0,101438901,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,65,0,101438901,3,Virtual core keyboard
+7,3,0,0,0,65,0,101439029,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,65,0,101439029,3,Virtual core keyboard
+7,2,0,0,0,37,0,101440357,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,37,0,101440357,3,Virtual core keyboard
+7,2,0,0,0,65,0,101440357,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,65,0,101440357,3,Virtual core keyboard
+7,3,0,0,0,37,0,101440565,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,37,0,101440565,3,Virtual core keyboard
+7,3,0,0,0,65,0,101440565,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,65,0,101440565,3,Virtual core keyboard
+7,2,0,0,0,10,0,101442293,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,10,0,101442293,3,Virtual core keyboard
+7,3,0,0,0,10,0,101442421,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,10,0,101442421,3,Virtual core keyboard
+7,2,0,0,0,11,0,101442597,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,11,0,101442597,3,Virtual core keyboard
+7,3,0,0,0,11,0,101442741,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,11,0,101442741,3,Virtual core keyboard
+7,2,0,0,0,12,0,101442965,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,12,0,101442965,3,Virtual core keyboard
+7,3,0,0,0,12,0,101443109,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,12,0,101443109,3,Virtual core keyboard
+7,2,0,0,0,13,0,101443349,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,13,0,101443349,3,Virtual core keyboard
+7,3,0,0,0,13,0,101443509,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,13,0,101443509,3,Virtual core keyboard
+7,2,0,0,0,14,0,101444021,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,14,0,101444021,3,Virtual core keyboard
+7,3,0,0,0,14,0,101444197,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,14,0,101444197,3,Virtual core keyboard
+7,2,0,0,0,15,0,101445077,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,15,0,101445077,3,Virtual core keyboard
+7,3,0,0,0,15,0,101445205,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,15,0,101445205,3,Virtual core keyboard
+7,2,0,0,0,16,0,101445429,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,16,0,101445429,3,Virtual core keyboard
+7,3,0,0,0,16,0,101445557,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,16,0,101445557,3,Virtual core keyboard
+7,2,0,0,0,17,0,101445781,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,17,0,101445781,3,Virtual core keyboard
+7,3,0,0,0,17,0,101445877,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,17,0,101445877,3,Virtual core keyboard
+7,2,0,0,0,18,0,101446181,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,18,0,101446181,3,Virtual core keyboard
+7,3,0,0,0,18,0,101446276,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,18,0,101446276,3,Virtual core keyboard
+7,2,0,0,0,19,0,101446789,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,19,0,101446789,3,Virtual core keyboard
+7,3,0,0,0,19,0,101446885,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,19,0,101446885,3,Virtual core keyboard
+7,2,0,0,0,37,0,101448053,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,37,0,101448053,3,Virtual core keyboard
+7,2,0,0,0,38,0,101449028,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,38,0,101449029,3,Virtual core keyboard
+7,3,0,0,0,38,0,101449221,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,38,0,101449221,3,Virtual core keyboard
+7,3,0,0,0,37,0,101449253,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,37,0,101449253,3,Virtual core keyboard
+7,2,0,0,0,37,0,101450069,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,37,0,101450069,3,Virtual core keyboard
+7,2,0,0,0,54,0,101450853,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,54,0,101450853,3,Virtual core keyboard
+7,3,0,0,0,54,0,101451077,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,54,0,101451077,3,Virtual core keyboard
+7,3,0,0,0,37,0,101451109,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,37,0,101451109,3,Virtual core keyboard
+7,2,0,0,0,115,0,101452373,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,115,0,101452373,3,Virtual core keyboard
+7,3,0,0,0,115,0,101452501,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,115,0,101452501,3,Virtual core keyboard
+7,2,0,0,0,37,0,101453109,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,37,0,101453109,3,Virtual core keyboard
+7,2,0,0,0,55,0,101453765,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,55,0,101453765,3,Virtual core keyboard
+7,3,0,0,0,55,0,101453956,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,55,0,101453956,3,Virtual core keyboard
+7,3,0,0,0,37,0,101453973,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,37,0,101453973,3,Virtual core keyboard
+7,2,0,0,0,37,0,101454661,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,37,0,101454661,3,Virtual core keyboard
+7,2,0,0,0,39,0,101456117,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,2,0,0,0,39,0,101456117,3,Virtual core keyboard
+7,3,0,0,0,37,0,101456320,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,37,0,101456320,3,Virtual core keyboard
+7,3,0,0,0,39,0,101456320,10,LITE-ON Technology USB NetVista Full Width Keyboard.
+6,3,0,0,0,39,0,101456320,3,Virtual core keyboard
+

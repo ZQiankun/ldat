@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	本脚本外接USB 移动硬盘 进行规定次数的S3/4 的操作。脚本运行结果保存在脚本目录下的output 目录中
+-->
+<config tagname = "配置">
+	<common>
+		<os0 type = "string" tagname = "操作系统名称">cos</os0>
+		<os1 type = "string" tagname = "操作系统名称">isoft</os1>
+		<os2 type = "string" tagname = "操作系统名称">kylin</os2>
+		
+	</common>
+	<data>
+		<count type = "int" tagname = "S3 S4执行次数">4</count>
+	</data>
+</config>

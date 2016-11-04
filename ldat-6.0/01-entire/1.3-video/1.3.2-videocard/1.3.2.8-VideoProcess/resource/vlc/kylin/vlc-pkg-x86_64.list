@@ -1,0 +1,27 @@
+SDL_image                                   x86_64                            1.2.12-6.nk.1                                  neokylin                             40 k
+ freerdp-libs                                x86_64                            1.0.2-2.nk.1                                   neokylin                            214 k
+ ftgl                                        x86_64                            2.1.3-0.8.rc5.nk.1                             neokylin                            100 k
+ game-music-emu                              x86_64                            0.5.5-4.nk.1                                   neokylin                            152 k
+ libGLEW                                     x86_64                            1.9.0-3.nk.1                                   neokylin                            126 k
+ libcddb                                     x86_64                            1.3.2-11.nk.1                                  neokylin                             70 k
+ libchromaprint                              x86_64                            0.7-2.nk.1                                     neokylin                             45 k
+ libdvbpsi                                   x86_64                            1.2.0-1.nk.1                                   neokylin                             94 k
+ libebml                                     x86_64                            1.3.0-1.nk.1                                   neokylin                             66 k
+ libkate                                     x86_64                            0.3.8-7.nk.1                                   neokylin                             48 k
+ libmad                                      x86_64                            0.15.1b-16.nk.1                                neokylin                             73 k
+ libmatroska                                 x86_64                            1.4.0-1.nk.1                                   neokylin                            135 k
+ libmodplug                                  x86_64                            1:0.8.8.4-4.nk.1                               neokylin                            160 k
+ libprojectM                                 x86_64                            2.0.1-19.nk.1                                  neokylin                            477 k
+ libtiger                                    x86_64                            0.3.4-5.nk.1                                   neokylin                             36 k
+ libupnp                                     x86_64                            1.6.18-2.nk.1                                  neokylin                             96 k
+ libvncserver                                x86_64                            0.9.9-7.nk.1                                   neokylin                            229 k
+ live555                                     x86_64                            2014.10.21-1.nk.1                              neokylin                            346 k
+ lzo-minilzo                                 x86_64                            2.06-4.nk.1                                    neokylin                             14 k
+ minizip                                     x86_64                            1.2.7-10.nk.1                                  neokylin                             32 k
+ twolame-libs                                x86_64                            0.3.13-3.nk.1                                  neokylin                             50 k
+ vlc-core                                    x86_64                            2.2.1-2.nk.1                                   neokylin                            9.1 M
+ x265-libs                                   x86_64                            1.2-5.nk.2                                     neokylin                            429 k
+ xcb-util-keysyms                            x86_64                            0.3.9-2.nk.1                                   neokylin                            9.1 k
+ zvbi                                        x86_64                            0.2.33-15.nk.1                                 neokylin                            394 k
+
+

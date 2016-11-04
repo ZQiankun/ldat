@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 1.5.1 cdrom read capacity -->
+<config>
+	<common>
+		<count type="int" tagname="循环次数">0</count>
+		<exectime type="time" tagname="循环时间">1M</exectime><!--Y:year; m:month; d:day; H:hour; M:minute-->
+	</common>
+	<data>
+		<!-- 配置从光盘拷贝到系统的数据大小，如过拷贝整个光盘的数据，填写0 -->
+		<data_size type="string" tagname="拷贝数据大小">100M, 500M, 1G</data_size>
+
+		<!-- 当前插入光驱的介质类型 CD 或者 DVD -->
+		<media_type type="string" tagname="介质类型">DVD</media_type>
+
+		<!-- 输出文件 -->
+		<output_file type="string" tagname="输出文件">1.5.1-result</output_file>
+	</data>
+</config>

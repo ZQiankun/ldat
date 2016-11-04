@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <common>
+        <count type="int" tagname="循环次数">1</count>
+        <exectime type="time" tagname="循环时间">0M</exectime><!--h:hour; M:minute; S:second-->
+    </common>
+    <data>
+        <output_dir type="string" tagname="输出文件相对目录">result</output_dir>
+        <!--<outside_program type="string" tagname="外部程序位置">resource/SystemInfo</outside_program>-->
+        <!--program to read system information and output into files-->
+    </data>
+</config>

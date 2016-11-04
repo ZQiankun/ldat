@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--功能测试-->
+<config>
+    <modulename tagname="整机测试" type="string">1.8.1-kmusb</modulename>
+    <common>
+        <count tagname="循环次数" type="int">1</count>
+        <exectime tagname="循环时间" type="time">0S</exectime>
+        <!--Y:year; m:month; d:day; H:hour; M:minute-->
+    </common>
+    <data/>
+</config>

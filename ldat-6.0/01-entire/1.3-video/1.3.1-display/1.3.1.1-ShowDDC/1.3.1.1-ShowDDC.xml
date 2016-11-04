@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--配置文件说明:
+	case 测试结果说明: 
+	（1） cos 和 isfot 系统 结果保存在screenshot 目录里面，保存方式:图片
+	 (2） kylin 结果保存在result 目录，保存方式:log 文件
+-->
+<config tagname = "配置">
+	<common>
+		<os0 type = "string" tagname = "操作系统名称">cos</os0>
+		<os1 type = "string" tagname = "操作系统名称">kylin</os1>
+		<os2 type = "string" tagname = "操作系统名称">isoft</os2>		
+	</common>
+	<data tagname = "配置数据"></data>
+</config>

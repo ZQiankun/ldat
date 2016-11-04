@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Video test on concurrent processing -->
+<config>
+    <common>
+        <count type="int" tagname="循环次数">0</count>
+        <exectime type="time" tagname="循环时间">1M</exectime><!--Y:year; m:month; d:day; H:hour; M:minute-->
+    </common>
+    <data>
+        <wps_file type="string" tagname="wps文件">2M.doc</wps_file>
+        <wps_file type="string" tagname="wps文件">2M.ppt</wps_file>
+        <wps_file type="string" tagname="wps文件">2M.xls</wps_file>
+        <wps_file type="string" tagname="wps文件">2M(1).doc</wps_file>
+        <wps_file type="string" tagname="wps文件">2M(1).ppt</wps_file>
+        <wps_file type="string" tagname="wps文件">2M(1).xls</wps_file>
+        <wps_file type="string" tagname="wps文件">2M(2).doc</wps_file>
+        <wps_file type="string" tagname="wps文件">2M(2).ppt</wps_file>
+
+	<!-- 由于 普华和方德系统的默认播放器Totem 不能从后台获取视频播放时的信息，
+		所以这个case使用 中标系统默认播放器 Mplayer 播放视频进行测试。 -->
+	<!-- 配置将要播放的1080P视频文件 -->
+        <video type="string" tagname="1080P视频文件">~/ldat_resource/Videos/1080P-videos/Alpha.And.Omega.3.The.Great.Wolf.Games.2014.1080p.WEB-DL.H264-PublicHD.mkv</video>
+
+        <output_file type="string" tagname="输出文件">1.3.2.9-result</output_file>
+    </data>
+</config>

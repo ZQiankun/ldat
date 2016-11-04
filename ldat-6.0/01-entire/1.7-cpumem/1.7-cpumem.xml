@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--功能测试-->
+<config>
+    <modulename type="string" tagname="整机测试">1.7-cpumem</modulename>
+    <common>
+        <count type="int" tagname="循环次数">1</count>
+        <exectime type="time" tagname="循环时间">0S</exectime>
+        <!--Y:year; m:month; d:day; H:hour; M:minute-->
+    </common>
+    <data/>
+</config>

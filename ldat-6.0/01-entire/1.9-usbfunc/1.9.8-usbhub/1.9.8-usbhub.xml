@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <common>
+        <count type="int" tagname="循环次数">0</count>
+        <exectime type="time" tagname="循环时间">1M</exectime>
+    </common>
+    <data>
+        <usb_device_name type="string" tagname="U盘名">7898-236E</usb_device_name>
+	<resource_name type="string" tagname="读写文件名">ue.py</resource_name>
+
+        <usb_device_name1 type="string" tagname="U盘名">NeoKylin-Li</usb_device_name1>
+	<resource_name1 type="string" tagname="读写文件名">ue.py</resource_name1>
+
+        <usb_device_name2 type="string" tagname="U盘名">MSDOS71</usb_device_name2>
+	<resource_name2 type="string" tagname="读写文件名">ue.py</resource_name2>
+
+        <usb_device_name3 type="string" tagname="U盘名">1</usb_device_name3>
+	<resource_name3 type="string" tagname="读写文件名">py</resource_name3>
+
+    </data>
+</config>

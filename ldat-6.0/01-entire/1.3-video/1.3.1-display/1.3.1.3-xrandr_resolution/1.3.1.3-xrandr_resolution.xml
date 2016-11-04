@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config tagname = "配置">
+	<common>
+		<os0 type = "string" tagname = "操作系统名称">cos</os0>
+		<os1 type = "string" tagname = "操作系统名称">isoft</os1>
+		<os2 type = "string" tagname = "操作系统名称">kylin</os2>
+	</common>
+	<data></data>
+</config>

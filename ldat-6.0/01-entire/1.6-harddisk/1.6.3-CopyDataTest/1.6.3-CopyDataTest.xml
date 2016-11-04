@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--1.6.3 Copy data test-->
+<config>
+
+	<common>
+		<count type="int" tagname="循环次数">0</count>
+		<exectime type="time" tagname="循环时间">1M</exectime><!--Y:year; m:month; d:day; H:hour; M:minute-->
+	</common>
+
+	<data>
+		<output_file type="string" tagname="输出文件">1.6.3-result.xls</output_file>
+	</data>
+
+</config>

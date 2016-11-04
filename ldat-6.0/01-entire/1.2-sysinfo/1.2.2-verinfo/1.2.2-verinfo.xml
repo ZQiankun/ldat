@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--1.2.2-verinfo.xml-->
+<config>
+    <common>
+        <count type="int" tagname="循环次数">1</count>
+        <exectime type="time" tagname="循环时间">0M</exectime><!--h:hour; M:minute; S:second-->
+    </common>
+    <data>
+        <kernel_version_ouput type="string" tagname="内核版本记录">result/kerversion.txt</kernel_version_ouput>
+        <system_version_ouput type="string" tagname="系统版本记录">result/sysversion.txt</system_version_ouput>
+    </data>
+</config>

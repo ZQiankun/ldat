@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	本脚本采用分别采用df 命令和 从系统控制面板来获取 磁盘容量信息。脚本运行结果保存在脚本目录下的output 目录中
+-->
+<config tagname = "配置">
+	<common>
+		<os0 type = "string" tagname = "操作系统名称">cos</os0>
+		<os1 type = "string" tagname = "操作系统名称">isoft</os1>
+		<os2 type = "string" tagname = "操作系统名称">kylin</os2>
+	</common>
+	<data></data>
+</config>

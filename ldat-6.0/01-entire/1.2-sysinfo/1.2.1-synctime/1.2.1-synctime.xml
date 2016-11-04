@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--1.2.1-synctime.xml-->
+<config>
+    <common>
+        <count type="int" tagname="循环次数">1</count>
+        <exectime type="time" tagname="循环时间">0M</exectime><!--h:hour; M:minute; S:second-->
+    </common>
+    <data>
+ </data>
+</config>

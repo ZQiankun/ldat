@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--1.11.4 power management related test-->
+<config>
+	<common>
+		<count type="int" tagname="循环次数">0</count>
+		<exectime type="time" tagname="循环时间">1M</exectime><!--Y:year; m:month; d:day; H:hour; M:minute-->
+	</common>
+	<data>
+
+		<!-- 配置在线视频站点 -->
+		<online_video_site type="string" tagname="在线视频站点">http://v.youku.com/v_show/id_XNzQyNjQ0NTM2.html?from=y1.2-2.4.21</online_video_site>
+
+		<!-- 配置S3和S4的睡眠时间 -->		
+		<sleep_time type="time" tagname="睡眠时间">2M</sleep_time>
+
+	</data>
+</config>

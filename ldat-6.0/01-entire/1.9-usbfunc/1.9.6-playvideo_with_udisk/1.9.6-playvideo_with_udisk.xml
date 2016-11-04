@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <common>
+        <count type="int" tagname="循环次数">0</count>
+        <exectime type="time" tagname="循环时间">1M</exectime>
+    </common>
+    <data>
+        <video_resource_name type="string" tagname="视频文件名">~/ldat_resource/Videos/diff-type-videos/RV40-480p.rmvb</video_resource_name>
+        <video_play_time type="int" tagname="视频播放时间（单位：秒）">60</video_play_time>
+    </data>
+</config>

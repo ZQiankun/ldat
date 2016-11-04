@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <common>
+        <count type="int" tagname="循环次数">3</count>
+        <time type="time" tagname="循环时间">4m</time><!--Y:year; m:month; d:day; H:hour; M:minute-->
+    </common>
+    <data>
+        <video_source_name type="string" tagname="视频名">~/ldat_resource/Videos/diff-type-videos/avi.avi</video_source_name>
+	<video_source_name1 type="string" tagname="视频名">~/ldat_resource/Videos/diff-type-videos/Chopin  La Dame aux camelias.mkv</video_source_name1>
+	<video_source_name2 type="string" tagname="视频名">~/ldat_resource/Videos/diff-type-videos/5.87.mkv</video_source_name2>
+	<video_source_name3 type="string" tagname="视频名">~/ldat_resource/Videos/diff-type-videos/RV40-480p.rmvb</video_source_name3>
+	<video_source_name4 type="string" tagname="视频名">~/ldat_resource/Videos/diff-type-videos/1440-576 左右-小恐龙找妈妈.mp4</video_source_name4>
+    </data>
+</config>
